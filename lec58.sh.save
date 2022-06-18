@@ -1,0 +1,22 @@
+#! /usr/bin/bash
+
+
+
+echo " what do you want to become ? "
+
+
+
+
+echo -e "enter something to diagnose : \c "
+read sth
+
+
+case $sth in
+	[a-z] )
+		echo " U enterec $sth which is a-z "
+	[A-Z])
+	echo " U entered $sth which is A-Z "
+	[0-9]   echo " U entered $sth which is 0-9 "
+	? )
+
+esac

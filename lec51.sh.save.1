@@ -1,0 +1,15 @@
+#! /usr/bin/bash
+
+
+echo "hi, wlcm to lec 51"
+
+
+echo -e "enter file/dir name : \c"
+read FDname
+
+if [ -f $FDname ]
+then
+	echo "$FDnameexists"
+else
+	echo "$FDname does not exists"
+fi
